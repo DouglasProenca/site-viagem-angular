@@ -1,1 +1,32 @@
-<p>landingpage works!</p>
+<div fxLayout="row" fxLayoutAlign="center" class="welcome-container">
+  <div fxLayout="column" fxFlex="900px">
+    <mat-card-header class="welcome-title">
+        <mat-card-title>Bem-vindo à sua lista de lugares favoritos!</mat-card-title>
+    </mat-card-header>
+    <p class="welcome-subtitle">
+      Explore, organize e compartilhe os lugares incríveis que você adora.
+      Tudo em um só lugar.
+    </p>
+    <div fxLayout="row" fxLayoutAlign="start" fxLayoutGap="16px">
+      <div fxLayout="column" fxFlex="400px">
+    @if (isLoggedIn()) {
+      <button (click)="logarComGoogle()"
+              mat-flat-button  color="primary" 
+              class="google-btn"
+      >
+            Olá {{profile?.name}}, clique aqui para aproveitar o site 
+      </button>
+    }
+    @else {
+      <button (click)="logarComGoogle()"
+              mat-flat-button  color="primary" 
+              class="google-btn"
+      >
+         <img width="50px" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"/>
+          logar com Google
+      </button>
+    }
+      </div>
+    </div>
+  </div>
+</div>

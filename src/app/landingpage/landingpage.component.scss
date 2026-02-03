@@ -1,0 +1,27 @@
+.welcome-container {
+  background: linear-gradient(90deg, #3b82f6, #1e40af);
+  color: #ffffff;
+  text-align: center;
+}
+
+.welcome-title {
+  font-size: 2.5rem; /* equivalente ao text-4xl */
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.welcome-subtitle {
+  font-size: 1.125rem; /* equivalente ao text-lg */
+  line-height: 1.0;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* espaço entre imagem e texto */
+}
+
+.google-btn img {
+  width: 24px; /* 50px fica grande pro botão */
+  height: 24px;
+}
