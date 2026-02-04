@@ -1,0 +1,33 @@
+p { 
+    text-align: center;
+}
+
+mat-card-header {
+    text-align: center;
+      font-size: 1.875rem; /* text-3xl */
+  line-height: 2.25rem;
+  font-weight: 700; /* font-bold */
+}
+
+.custom-gradient {
+  background: linear-gradient(to right, #3b82f6, #1d4ed8);
+  color: #ffffff;
+  padding: 1.5rem; /* p-6 */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+              0 4px 6px -4px rgba(0, 0, 0, 0.1); /* shadow-lg */
+}
+
+.text-subtitle {
+  font-size: 1.125rem; /* text-lg */
+  line-height: 1.75rem;
+  margin-top: 0.5rem; /* mt-2 */
+}
+
+.mt-4 {
+    margin-top:  4px;
+}
+
+.divider {
+  border-top: 1px solid #93c5fd; /* border-blue-300 */
+  opacity: 0.5;                  /* opacity-50 */
+}
